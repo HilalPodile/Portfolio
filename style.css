@@ -1,0 +1,433 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(25, 36, 55);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.nav{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 36, 55);
+}
+
+.nav h6 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nLeft{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nLeft img{
+    margin-right: 3%;
+    height: 70%;
+    width: 10%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.nLeft h6{
+    font-weight: normal;
+    font-size: 3vh;
+}
+
+.nRight {
+    height: 100%;
+    width: 40%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nRight ul {
+    list-style: none;
+    padding: 0; /* Reset default padding */
+    text-align: center; /* Center text in list items */
+  }
+  
+  .nRight ul li {
+    display: inline; /* To make li items appear horizontally */
+    margin: 0 10px; /* Adjust margin as needed to space the list items */
+  }
+  
+  .nRight ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vh;
+  }
+
+  .nRight ul li a:hover{
+    font-size: 2.5vh;
+    color: rgb(152, 138, 242);
+    border-bottom: 2px solid rgb(106, 152, 168);
+  }
+
+.about{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name{
+    height: 75%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.name h3{
+    font-weight: normal;
+    font-size: 7vh;
+    color: rgb(156, 151, 168);
+}
+
+.name h6{
+    font-weight: normal;
+    font-size: 4vh;
+    color: rgb(166, 145, 210);
+}
+
+.verticalLine{
+    height: 95%;
+    width: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verticalLine ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verticalLine ul li{
+    list-style: none;
+    height: 70%;
+    width: 10%;
+    background-color: white;
+}
+
+.content{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.content p{
+    font-size: 3.5vh;
+}
+
+#experience{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(25, 36, 55);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.eTitle{
+    height: 50%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eTitle h3{
+    font-weight: normal;
+    font-size: 10vh;
+    color: rgb(156, 151, 168);
+}
+
+.eContent{
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    color: white;
+}
+
+.eContent p{
+    margin-left: 5%;
+}
+
+.eContent p a{
+    color: white;
+}
+
+#desg{
+    color: rgb(154, 147, 185);
+    font-weight: bold;
+}
+
+#responsibilities{
+    width: 75%;
+    margin-left: 25%;
+}
+
+#responsibilities ul li{
+    list-style: none;
+    font-size: 2.5vh;
+    margin-right: 5%;
+}
+
+#skills{
+    height: 100vh;
+    width: 100vw;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sContent{
+    width: 55%;
+    height: 65%;
+}
+
+.sTitle{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sTitle h3{
+    font-weight: normal;
+    font-size: 10vh;
+    color: rgb(156, 151, 168);
+}
+
+.sContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sContent ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sContent ul li{
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+    list-style: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.sContent ul li p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    color: rgb(47, 37, 81);
+}
+
+.sContent ul li p:hover{
+    background-color: rgb(25, 36, 55);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.edu{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eduTitle{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eduTitle p{
+    font-size: 8vh;
+    color: rgb(156, 151, 168); 
+    margin-right: 10%; 
+}
+
+.eduContent{
+    width: 45%;
+    height: 60%;
+    background-color: rgb(25, 36, 55);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 3%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eduContent li{
+    list-style: none;
+    height: 1%;
+    width: 90%;
+    background-color: white;
+}
+
+.eduContent p{
+    display: flex;
+    align-items: center;
+}
+
+.clg{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.clg p{
+    margin-top: 1%;
+}
+
+.clg p{
+    color: white;
+}
+
+#deg{
+    color: rgb(81, 142, 81);
+}
+
+.contactInfo{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cTitle{
+    width: 33%;
+    height: 60%;
+}
+
+.cTitle ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cTitle ul li{
+    width: 90%;
+    height: 20%;
+    background-color: rgb(25, 36, 55);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cTitle ul li p{
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cTitle ul li a:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(25, 36, 55);
+    border-radius: 10px;
+    color: white;
+}
+
+#lLogo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cTitle ul li p:hover{
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    color: rgb(47, 37, 81);
+    border-radius: 10px;
+}
+
+.cTitle ul li a{
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    color: rgb(47, 37, 81);
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cContent{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cContent p{
+    font-size: 8vh;
+    color: rgb(156, 151, 168);
+}
